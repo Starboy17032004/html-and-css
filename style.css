@@ -22,6 +22,7 @@ nav{
 }
 .navbar-logo{
     display: flex;
+    display: block;
 }
 .navbar-logo a{
     color:white;
@@ -29,6 +30,7 @@ nav{
     padding-left: 50px;
     font-size: 29px;
     font-weight: bold;
+    background-color: red;
 }
 ul{
     display: flex;
@@ -45,6 +47,8 @@ ul a{
     font-family: sans-serif;
     padding-top: 9px;
     font-weight: lighter;
+    background-color: aqua;
+    color: aquamarine;
 
 }
 .search-button{
