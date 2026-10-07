@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.first-page{
+    background-image: url(./everst1.jpg);
+    background-size: cover;
+    background-position: fixed;
+    height: 500px;
+}
+nav{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+    list-style-type: none;
+    position: sticky;
+}
+.navbar-logo{
+    display: flex;
+}
+.navbar-logo a{
+    color:white;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 29px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+    align-content: center;
+}
+ul a{
+    color: white;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 9px;
+    font-weight: lighter;
+
+}
+.search-button{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+.intro{
+    align-content: center;
+    padding-top:110px;
+    color: white; 
+}
